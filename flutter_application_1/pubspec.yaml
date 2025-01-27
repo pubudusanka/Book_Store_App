@@ -1,0 +1,42 @@
+name: bookstore
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets\books\I'll Always Be With You.jpg
+    - assets\authors\monica_murphy.jpg
+
+    - assets\books\King-of-Sloth-scaled.jpg
+    - assets\authors\Ana_Huang.jpg
+
+    - assets\books\Children of Anguish and Anarchy.jpg
+    - assets\authors\tomi_adeyemi.jpg
+
+    - assets\books\The Witch In The Peepul Tree.jpg
+    - assets\authors\arefa_tehsin.jpg
+
+    - assets\books\Independence.jpg
+    - assets\authors\chitra_banerjee.jpg
+
+    - assets\books\Unladylike Lessons in Love.jpg
+    - assets\authors\Amita_Murray.jpeg
+
+    - assets\books\All the Light We Cannot See.jpg
+    - assets\authors\anthony_doerr.jpg
