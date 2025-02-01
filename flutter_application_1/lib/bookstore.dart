@@ -313,7 +313,7 @@ class _BookstoreState extends State<Bookstore> {
                     width: 8,
                   ),
                   Text(
-                    author.books.toString() + " books",
+                    "${author.books} books",
                     style: TextStyle( 
                       fontSize: 14,
                       color: Colors.grey,
